@@ -15,3 +15,18 @@
 
 ### Organization skills
 - Psychiatrist in a psychiatric hospital (09/2010 - Present)
+
+### Education
+
+ 1. University:  Vitebsk State Medical University
+- Deparments:  medical faculty
+- Specialities: psychiatrist
+
+2. Udemy:  
+- JS course
+- HTML, CSS course
+- course on setting up contextual advertising
+- SEO course
+
+3. English level
+A1 (began to study)
