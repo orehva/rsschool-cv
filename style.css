@@ -9,7 +9,7 @@
 }
 
 body{
-   background: #b8c3c5;
+   background: #f1f7f8;
    font-size: 14px;
    line-height: 22px;
    color: #020202;
@@ -35,7 +35,7 @@ body{
 
 .cv .cv-left{
 width: 280px;
-background: rgb(134, 220, 231);
+background: rgb(210, 235, 238);
 }
 
 .cv .cv-left .cv-profile{
@@ -50,4 +50,49 @@ background: rgb(134, 220, 231);
 
 .cv .cv-left .cv-content{
    padding: 0 25px;
+}
+
+.cv .title{
+   margin-bottom: 20px;
+}
+
+.cv .cv-left .bold{
+   color: rgb(64, 76, 145);
+}
+
+.cv .cv-item{
+  padding: 25px 25px;
+  border-bottom: 2px solid #5ba8b6;
+}
+
+.cv .cv-left .cv-item:last-child{
+   border-bottom: 0px;
+}
+
+.cv .cv-left ul li{
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px ;
+}
+
+.cv .cv-left ul li .icon{
+   width: 35px;
+   height: 35px;
+   background: rgb(247, 247, 247);
+   color: rgb(133, 134, 46);
+   border-radius: 50%;
+   margin-right: 15px;
+   font-size: 16px;
+   position: relative;
+}
+
+.cv .icon i{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.cv .cv-left ul li .data{
+   color:rgb(10, 10, 88);
 }
