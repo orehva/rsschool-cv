@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   font-family: 'DM Mono', monospace;
+}
+
+body{
+   background: #f1f7f8;
+   font-size: 16px;
+   line-height: 22px;
+   color: #020202;
+}
+
+.bold{
+   font-weight: 700;
+   font-size: 22px;
+   text-transform: uppercase;
+}
+
+.semi-bold{
+   font-weight: 500;
+   font-size: 19px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.cv{
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 40px auto;
+}
+
+.cv .cv-left{
+width: 270px;
+background: rgb(210, 235, 238);
+}
+
+.cv .cv-left .cv-profile{
+   width: 100%;
+   height: 280px;
+}
+
+.cv .cv-left .cv-profile img{
+   width: 100%;
+   height: 100%;
+}
+
+.cv .cv-left .cv-content{
+   padding: 0 25px;
+}
+
+.cv .title{
+   margin-bottom: 20px;
+}
+
+.cv .cv-left .bold{
+   color: rgb(64, 76, 145);
+}
+
+.cv .cv-item{
+  padding: 25px 25px;
+  border-bottom: 2px solid #5ba8b6;
+}
+
+.cv .cv-left .cv-item:last-child{
+   border-bottom: 0px;
+}
+
+.cv .cv-left ul li{
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px ;
+}
+
+.cv .cv-left ul li .icon{
+   width: 35px;
+   height: 35px;
+   background: rgb(247, 247, 247);
+   color: rgb(133, 134, 46);
+   border-radius: 50%;
+   margin-right: 15px;
+   font-size: 16px;
+   position: relative;
+}
+
+.cv .icon i{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.cv .cv-left ul li .data{
+   color:rgb(10, 10, 88);
+}
+
+.cv .cv-right{
+   width: 530px;
+   background: white;
+   padding: 30px;
+}
+
+.cv .cv-right .bold{
+   color: rgb(64, 76, 145);
+   padding-bottom: 15px;
+}
+
+ .cv .cv-right .cv-hobby ul{
+    display:flex;
+    justify-content: space-between;
+ }
+
+ .cv .cv-right .cv-hobby ul li{
+    width: 80px;
+    height: 80px;
+    color:rgb(10, 10, 88)
+ }
+
+ .cv .cv-right .cv-hobby ul li i{
+    font-size: 40px;
+    padding-top: 20px;
+ }
+
+ .cv .cv-right .github ul{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .cv .cv-right .github ul li{
+   width: 80px;
+   height: 80px;
+  }
+
+.cv .cv-right .github ul li {
+   font-size: 40px;
+   padding-top: 20px;
+}
+
+.cv .footer{
+   padding: 30px 90px;
+ }
+ .cv .cv-right .github ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+ }
