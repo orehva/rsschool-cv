@@ -37,7 +37,7 @@ body{
 
 .cv .cv-left{
 width: 270px;
-background: rgb(210, 235, 238);
+background: rgb(183, 223, 228);
 }
 
 .cv .cv-left .cv-profile{
@@ -101,7 +101,7 @@ background: rgb(210, 235, 238);
 
 .cv .cv-right{
    width: 530px;
-   background: white;
+   background: rgb(210, 235, 238);
    padding: 30px;
 }
 
@@ -145,7 +145,7 @@ background: rgb(210, 235, 238);
    padding: 30px 90px;
  }
  .cv .cv-right .github ul li a{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 600;
  }
