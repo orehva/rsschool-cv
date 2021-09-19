@@ -16,7 +16,7 @@ body{
 
 }
 
-.bold{
+.bold, h6{
    font-weight: 700;
    font-size: 22px;
    text-transform: uppercase;
