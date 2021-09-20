@@ -120,11 +120,12 @@ background: rgb(183, 223, 228);
 
  .cv .cv-right .cv-hobby ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
  }
 
  .cv .cv-right .cv-hobby ul li{
-    width: 80px;
+    width: 100%;
     height: 80px;
     color:rgb(10, 10, 88)
  }
@@ -132,28 +133,39 @@ background: rgb(183, 223, 228);
  .cv .cv-right .cv-hobby ul li i{
     font-size: 40px;
     padding-top: 20px;
+    padding-left: 80px;
+ }
+ .cv .cv-right .cv-works a {
+   font-size: 18x;
  }
 
- .cv .cv-right .github ul{
+ a:link {
+   color: #497DDD; 
+   text-decoration: none;
+ }
+ a:visited {
+   color: #154088;
+ }
+
+ a:hover {
+   color: #EF7D55;
+ }
+ 
+ a:active {
+   color: #497DDD; 
+ }
+
+.cv .cv-right .footer{
+   padding: 20px 150px;
    display: flex;
    justify-content: space-between;
+   height: 60px;
+ }
+ 
+  .rsscool img{
+   width: 100px;
  }
 
- .cv .cv-right .github ul li{
-   width: 80px;
-   height: 80px;
-  }
-
-.cv .cv-right .github ul li {
-   font-size: 40px;
-   padding-top: 20px;
-}
-
-.cv .footer{
-   padding: 30px 90px;
- }
- .cv .cv-right .github ul li a{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-weight: 600;
+  .github img{
+      width: 40px;
  }
