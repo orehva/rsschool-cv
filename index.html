@@ -102,13 +102,13 @@
           </div>
         </div>
      </aside>
-     <article class="cv-right">
+     <div class="cv-right">
        <section class="cv-item cv-about">
          <h2 class="bold">About me</h2>
-         <p>
+         <article>
           I like creating websites.
           I want to learn new technologies and I want to become better in this industry
-         </p>
+         </article>
        </section>
        <section class="cv-item cv-education"> 
           <h2 class="bold">Education</h2>
@@ -118,13 +118,13 @@
            <li>Specialities: psychiatrist</li>
          </ul> 
          <ul>
-          <p class="semi-bold">Udemy:</p>
-          <li> JS course</li>
+          <li><p class="semi-bold">Udemy:</p>
+           JS course</li>
           <li> HTML </li>
           <li> CSS course</li>
           <li>Course on setting up contextual advertising</li>
           <li>SEO</li> 
-        <li>Course English</li>
+          <li>Course English</li>
          </ul>
       </section>
       <section class="cv-item cv-work">
@@ -173,9 +173,9 @@ const orderedArray = stringArray.sort
           </div>
         </div>
       </footer> 
-    </article>
+    </div>
   </main>
-  <script src="/libs/highlight/highlight.min.js"> </script>
+  <script src="libs/highlight/highlight.min.js"> </script>
   <script>hljs.highlightAll();</script>
   <script>
     console.log("Ваша оценка - 140 баллов.Отзыв по пунктам ТЗ: 1.вёрстка валидная 2. вёрстка семантическая. В коде страницы присутствуют семантические теги HTML5, например, article, aside, figure, figcaption, footer, header, main, nav, section, используются заголовки h1-h6. 2 балла за каждый уникальный семантический тег HTML5 и за каждый уникальный заголовок h1-h6, но не больше 20 баллов. Заголовок h1 может быть только один 3. для оформления СV используются css-стили. 1 балл за каждый стилизованный элемент, но не больше 10 баллов 4. контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы 5. вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется 6. на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt 7. контакты для связи и перечень навыков оформлены в виде списка ul > li. 8 CV содержит контакты, краткую информацию о себе, навыки, образование, уровень английского. 9 CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода. 10 CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке. У каждого проекта есть название, небольшое описание, указан перечень используемых технологий. 11 CV выполнено на английском языке . 12 выполнены требования к репозиторию: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, указана дата дедлайна, выполнена самооценка (самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт). 13 дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию");
